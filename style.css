@@ -349,3 +349,40 @@ section.formcontato{
     transition: 0.3s; 
 }
 
+@media only screen and (max-width: 425px){
+
+    nav ul.menu__list {
+        display: none;        
+    }
+
+    /* titulo principal */
+div.title__container h2 {
+    display: none;
+}
+/* organizando conteudo */
+div.title__div{
+    display: flex;    
+    flex-direction: column;
+}
+
+/*imagem de perfil*/
+section.title img.title__profile {
+    margin-left: 50px;
+    }
+
+    /*fonte dos links das redes sociais*/
+div.title__container h3.title__subsection{
+    display: none;
+}    
+
+section.title div.title__div div.title__container ul.title__network{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;    
+    font-size: 2rem;
+    width: 250px;
+    padding: 30px;
+}
+
+}
