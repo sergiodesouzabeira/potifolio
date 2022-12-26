@@ -393,14 +393,18 @@ section.title div.title__div div.title__container ul.title__network{
     }
 
     /* experiência*/
+    
+    
+ div.experience__info{
+    
+    margin-top: 20px;
+}
 
     .experiencie__box{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
         align-items: center;
-        margin: 10px;
-        padding: 5px;
+        
     }
 
 .experience__img{
