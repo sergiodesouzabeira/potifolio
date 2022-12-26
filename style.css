@@ -349,42 +349,52 @@ section.formcontato{
     transition: 0.3s; 
 }
 
-@media only screen and (max-width: 425px){
+@media screen and (max-width: 425px){
+
+
+    body{
+        width: 425px;
+        margin right: 0px;
+        padding right: 0px;
+    }
 
     nav ul.menu__list {
         display: none;        
     }
 
-    /* titulo principal */
-div.title__container h2 {
-    display: none;
-}
-
-/* organizando conteudo */
-div.title__div{
-    display: flex;    
-    flex-direction: column;
-}
-
-/*imagem de perfil*/
-section.title img.title__profile {
-    margin-left: 50px;
+        /* titulo principal */
+    div.title__container h2 {
+        display: none;
     }
 
-    /*fonte dos links das redes sociais*/
-div.title__container h3.title__subsection{
-    display: none;
-}    
+    /* organizando conteudo */
+    div.title__div{
+        display: flex;    
+        flex-direction: column;
+    }
 
-section.title div.title__div div.title__container ul.title__network{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;    
-    font-size: 2rem;
-    width: 250px;
-    padding: 30px;
-}
+    /*imagem de perfil*/
+    section.title img.title__profile {
+        margin-left: 20%;
+        }
+
+        /*fonte dos links das redes sociais*/
+    div.title__container h3.title__subsection{
+        display: none;
+    }    
+
+    section.title div.title__div div.title__container ul.title__network{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;    
+        font-size: 2rem;
+        width: 200px;
+        margin: 15%;
+        padding: 30px;
+    }
+
+        
 
     /*ajustando posicionamento com displays*/
     section.academic div.academic__courses{
@@ -393,16 +403,17 @@ section.title div.title__div div.title__container ul.title__network{
     }
     section.academic div.academic__courses__box{
         
-       padding: opx 20px;
+        width: auto;
+       padding: 5px 15px;
     }
     
     /* experiência*/
-    
-    
- div.experience__info{
-    
-    margin-top: 20px;
-}
+        
+        
+    div.experience__info{
+        
+        margin-top: 20px;
+    }
 
     .experiencie__box{
         display: flex;
@@ -411,16 +422,16 @@ section.title div.title__div div.title__container ul.title__network{
         
     }
 
-.experience__img{
-    width: 250px;
-}
-    
+    .experience__img{
+        width: 250px;
+    }
+        
 
-    
-/*Contato*/
+        
+    /*Contato*/
 
-section.formcontato{
-    display: none;
-}
+    section.formcontato{
+        display: none;
+    }
 
 }
