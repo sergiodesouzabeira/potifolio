@@ -391,7 +391,11 @@ section.title div.title__div div.title__container ul.title__network{
         display: flex;
         flex-direction: column;
     }
-
+    section.academic div.academic__courses__box{
+        
+       padding: opx 20px;
+    }
+    
     /* experiência*/
     
     
