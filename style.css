@@ -81,7 +81,7 @@ section.title{
 }
 /* tamanho do container */
 div.title__container{
-    width: 500px;
+    width: 30rem;
 }
 /* titulo principal */
 div.title__container h2 {
@@ -107,7 +107,6 @@ section.title img.title__profile {
 section.title div.title__div div.title__container{
     font-size: .5rem;
     line-height: 5rem;
-    width: 500px;
 }
 /*fonte dos links das redes sociais*/
 section.title div.title__div div.title__container ul.title__network{
