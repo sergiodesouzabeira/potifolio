@@ -81,7 +81,7 @@ section.title{
 }
 /* tamanho do container */
 div.title__container{
-    width: 600px;
+    width: 500px;
 }
 /* titulo principal */
 div.title__container h2 {
@@ -107,7 +107,7 @@ section.title img.title__profile {
 section.title div.title__div div.title__container{
     font-size: .5rem;
     line-height: 5rem;
-    width: 600px;
+    width: 500px;
 }
 /*fonte dos links das redes sociais*/
 section.title div.title__div div.title__container ul.title__network{
@@ -360,6 +360,7 @@ section.formcontato{
 div.title__container h2 {
     display: none;
 }
+
 /* organizando conteudo */
 div.title__div{
     display: flex;    
@@ -418,4 +419,5 @@ section.title div.title__div div.title__container ul.title__network{
 section.formcontato{
     display: none;
 }
+
 }
