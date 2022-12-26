@@ -385,4 +385,25 @@ section.title div.title__div div.title__container ul.title__network{
     padding: 30px;
 }
 
+    /*ajustando posicionamento com displays*/
+    section.academic div.academic__courses{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* experiência*/
+
+.experience__img{
+    width: 500px;
+}
+
+    
+/*Contato*/
+
+.formcontato__input{
+    width: 200px;
+}
+.formcontato__textarea{
+    width: 250px;
+}
 }
