@@ -11,6 +11,7 @@ coloque nas sessões indicadas*/
    --color-fundo-azul: #EAF2FD;
    --color-caixas: #fbfbfb;
    --azul-botoes: #2a7ae4;
+   --teste: #0404e2;
 }
 
 body {
@@ -394,16 +395,13 @@ section.title div.title__div div.title__container ul.title__network{
     /* experiência*/
 
 .experience__img{
-    width: 500px;
+    width: 250px;
 }
 
     
 /*Contato*/
 
-.formcontato__input{
-    width: 200px;
-}
-.formcontato__textarea{
-    width: 250px;
+section.formcontato{
+    display: none;
 }
 }
