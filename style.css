@@ -359,7 +359,7 @@ section.formcontato{
 
         /* tamanho do container */
     div.title__container {
-        width: 25rem;
+        width: 20rem;
         align-items: center;
         
     }
@@ -428,6 +428,9 @@ section.formcontato{
         width: 250px;
     }
         
+    div.academic__courses ul li.academic__courses__item__img{
+        padding: 50px 20px;
+    }
 
         
     /*Contato*/
