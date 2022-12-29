@@ -349,6 +349,100 @@ section.formcontato{
     transition: 0.3s; 
 }
 
+
+@media screen and (max-width: 768px){
+
+
+    
+    nav ul.menu__list {
+        display: none;        
+    }
+
+        /* tamanho do container */
+    div.title__container {
+        width: 20rem;
+        align-items: center;
+        
+    }
+
+        /* titulo principal */
+    div.title__container h2 {
+        display: none;
+    }
+
+    /* organizando conteudo */
+    div.title__div{
+        display: flex;    
+        flex-direction: column;
+    }
+
+    /*imagem de perfil*/
+    section.title img.title__profile {
+        margin-left: 30%;
+        }
+
+        /*fonte dos links das redes sociais*/
+    div.title__container h3.title__subsection{
+        display: none;
+    }    
+
+    section.title div.title__div div.title__container ul.title__network{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;    
+        font-size: 2rem;
+        width: 200px;
+        margin: 15% 60%;
+        padding: 30px;
+    }
+
+        
+
+    /*ajustando posicionamento com displays*/
+    section.academic div.academic__courses{
+        display: flex;
+        flex-direction: column;
+    }
+    section.academic div.academic__courses__box{
+        
+        width: auto;
+       padding: 5px 15px;
+    }
+    
+    /* experiência*/
+        
+        
+    div.experience__info{
+        
+        margin-top: 20px;
+    }
+
+    .experiencie__box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .experience__img{
+        width: 100%;
+    }
+        
+    div.academic__courses ul li.academic__courses__item__img{
+        padding: 50px 20px;
+    }
+
+        
+    /*Contato*/
+
+    section.formcontato{
+        display: none;
+    }
+
+}
+
+
 @media screen and (max-width: 425px){
 
 
