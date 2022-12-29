@@ -361,6 +361,11 @@ section.formcontato{
         display: none;        
     }
 
+        /* tamanho do container */
+    div.title__container{
+        width: 20rem;
+    }
+
         /* titulo principal */
     div.title__container h2 {
         display: none;
