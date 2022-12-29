@@ -352,18 +352,16 @@ section.formcontato{
 @media screen and (max-width: 425px){
 
 
-    body{
-        width: 425px;
-        
-    }
-
+    
     nav ul.menu__list {
         display: none;        
     }
 
         /* tamanho do container */
-    div.title__container{
-        width: 50px;
+    div.title__container {
+        width: 25rem;
+        align-items: center;
+        
     }
 
         /* titulo principal */
@@ -379,7 +377,7 @@ section.formcontato{
 
     /*imagem de perfil*/
     section.title img.title__profile {
-        margin-left: 20%;
+        margin-left: 10%;
         }
 
         /*fonte dos links das redes sociais*/
